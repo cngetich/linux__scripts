@@ -1,0 +1,15 @@
+#! /bin/bash
+
+clear
+echo ""
+echo ""
+echo "<<<<<<<<<<<<<<<<<<AC Adapter Information>>>>>>>>>>>>>>>>>"
+echo ""
+
+upower -i /org/freedesktop/UPower/devices/line_power_AC
+
+echo ""
+
+echo "<<<<<<<<<<<<<<<<<<<<By Charles Ng'etich>>>>>>>>>>>>>>>>>>"
+echo ""
+echo ""
